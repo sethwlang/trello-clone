@@ -57,18 +57,12 @@ export default {
 </script>
 <style lang="css">
 
-
-.column {
-  @apply bg-grey-light p-2 mr-4 text-left shadow;
-  min-width: 350px;
-}
-
 .board {
   @apply p-4 bg-teal-dark h-full overflow-auto;
 }
 
 .task-bg {
-  @apply absolute;
+  @apply container absolute;
   background: rgba(0,0,0,0.5);
 }
 </style>

@@ -24,8 +24,6 @@
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.3.5",
-    "vite": "^4.4.11",
-    "@fortawesome/vue-fontawesome":"*"
-
+    "vite": "^4.4.11"
   }
 }

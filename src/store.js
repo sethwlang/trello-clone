@@ -46,7 +46,6 @@ const store = createStore({
       return (id) => {
         for(const column of state.board.columns){
           for(const task of column.tasks){
-            console.log(task.id)
             if(task.id == id){
               return task;
             }
